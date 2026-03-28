@@ -1,0 +1,23 @@
+:root{
+  --bg:#f7f7fb;
+  --card:#ffffff;
+  --text:#1b1b1b;
+  --muted:#666;
+  --accent:#2b90ff;
+}
+body{font-family:Inter, Arial, sans-serif;background:var(--bg);color:var(--text);margin:0;padding:18px}
+header{display:flex;align-items:center;gap:12px}
+header h1{margin:0}
+.tag{background:var(--accent);color:#fff;padding:4px 8px;border-radius:6px;font-size:0.85rem}
+.controls{margin-top:12px;display:flex;gap:8px;align-items:center}
+.context-card{margin-top:14px;padding:12px;background:var(--card);border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+.context-card #context{font-size:1.4rem;font-weight:700}
+.sensors-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-top:12px}
+.card{background:var(--card);padding:10px;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.04)}
+pre#log{background:#111;color:#0f0;padding:8px;border-radius:6px;max-height:220px;overflow:auto}
+footer{margin-top:18px;color:var(--muted)}
+
+/* dark mode */
+body.dark{background:#0b0d11;color:#e6eef8}
+body.dark .card, body.dark .context-card{background:#0f1720}
+body.dark .tag{background:#7aaefc}

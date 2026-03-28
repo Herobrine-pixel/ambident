@@ -1,0 +1,35 @@
+{
+  "name": "AmbientSenseAI",
+  "version": "1.1.0",
+  "keywords": [
+    "environment",
+    "sensors",
+    "context",
+    "ai",
+    "ambient",
+    "dht",
+    "bh1750",
+    "bmp280",
+    "ds18b20",
+    "mq2"
+  ],
+  "description": "AI-style context detector using multiple common environmental sensors for Arduino.",
+  "authors": [
+    {
+      "name": "Herobrine Sah",
+      "maintainer": true
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HerobrinePixel/AmbientSenseAI"
+  },
+  "frameworks": [
+    "arduino"
+  ],
+  "platforms": [
+    "atmelavr",
+    "espressif32",
+    "espressif8266"
+  ]
+}

@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>AmbientSenseAI Dashboard</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>AmbientSenseAI</h1>
+    <div class="tag">v1.1.0</div>
+  </header>
+
+  <main>
+    <section class="controls">
+      <button id="connectBtn">Connect</button>
+      <button id="disconnectBtn" disabled>Disconnect</button>
+      <button id="downloadBtn">Download CSV</button>
+      <label><input type="checkbox" id="darkToggle"> Dark mode</label>
+    </section>
+
+    <section class="context-card">
+      <h2>Current Context</h2>
+      <div id="context">—</div>
+    </section>
+
+    <section class="sensors-grid">
+      <div class="card"><h3>Gas</h3><div id="gas">-</div></div>
+      <div class="card"><h3>Mic</h3><div id="mic">-</div></div>
+      <div class="card"><h3>Lux</h3><div id="lux">-</div></div>
+      <div class="card"><h3>Temp</h3><div id="temp">-</div></div>
+      <div class="card"><h3>Hum</h3><div id="hum">-</div></div>
+      <div class="card"><h3>BMP Temp</h3><div id="bmpt">-</div></div>
+    </section>
+
+    <section>
+      <h3>Serial Log</h3>
+      <pre id="log"></pre>
+    </section>
+  </main>
+
+  <footer>
+    <small>AmbientSenseAI — v1.1.0</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

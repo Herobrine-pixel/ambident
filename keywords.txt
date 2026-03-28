@@ -1,0 +1,7 @@
+AmbientSenseAI	KEYWORD1
+getContext	KEYWORD2
+update	KEYWORD3
+triggered	KEYWORD4
+lux	KEYWORD5
+temperature	KEYWORD6
+humidity	KEYWORD7
